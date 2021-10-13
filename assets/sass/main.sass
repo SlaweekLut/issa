@@ -1,25 +1,25 @@
 /* Fonts */ 
 @font-face
-    font-family: 'GothamPro'
-    src: url(../fonts/GothamPro.eot)
-    src: url(../fonts/GothamPro.ttf)
-    src: url(../fonts/GothamPro.woff)
-    font-style: normal
-    font-weight: normal
+	font-family: 'GothamPro'
+	src: url(../fonts/GothamPro.eot)
+	src: url(../fonts/GothamPro.ttf)
+	src: url(../fonts/GothamPro.woff)
+	font-style: normal
+	font-weight: normal
 @font-face
-    font-family: 'GothamPro-medium'
-    src: url(../fonts/GothamPro-Medium.eot)
-    src: url(../fonts/GothamPro-Medium.ttf)
-    src: url(../fonts/GothamPro-Medium.woff)
-    font-style: normal
-    font-weight: 600
+	font-family: 'GothamPro-medium'
+	src: url(../fonts/GothamPro-Medium.eot)
+	src: url(../fonts/GothamPro-Medium.ttf)
+	src: url(../fonts/GothamPro-Medium.woff)
+	font-style: normal
+	font-weight: 600
 @font-face
-    font-family: 'GothamPro-black'
-    src: url(../fonts/GothamPro-Black.eot)
-    src: url(../fonts/GothamPro-Black.ttf)
-    src: url(../fonts/GothamPro-Black.woff)
-    font-style: normal
-    font-weight: 900
+	font-family: 'GothamPro-black'
+	src: url(../fonts/GothamPro-Black.eot)
+	src: url(../fonts/GothamPro-Black.ttf)
+	src: url(../fonts/GothamPro-Black.woff)
+	font-style: normal
+	font-weight: 900
 
 /* variables */ 
 $pinkRed: #FF006E
@@ -28,250 +28,255 @@ $white: #ffffff
 $greyBorder: #E2E2E2
 /* Main styles */ 
 *
-    padding: 0
-    margin: 0
-    font-family: 'GothamPro'
-    box-sizing: border-box
+	padding: 0
+	margin: 0
+	font-family: 'GothamPro'
+	box-sizing: border-box
 
 h1
-    font-size: 2rem
-    font-family: 'GothamPro-black'
-    font-weight: 900
+	font-size: 2rem
+	font-family: 'GothamPro-black'
+	font-weight: 900
 .container
-    margin: 0 auto
-    max-width: 1290px
-    width: 100%
-    padding: 39px
+	margin: 0 auto
+	max-width: 1290px
+	width: 100%
+	padding: 0px 40px
 .form-header
-    background: url('../img/header-form.png')
-    &__container
-        display: flex
-        justify-content: space-between
-        align-items: center
-    &__decor
-        height: 144px
-        width: 2px
-        background-color: #0B318F
-        position: relative
-        &::after
-            content: ''
-            position: absolute
-            height: 51px
-            bottom: 0
-            left: 0
-            width: 2px
-            background-color: $pinkRed
-    &__logo
-
-    &__title
-        max-width: 550px
-        color: #fff
+	padding: 10px 0
+	background: url('../img/header-form.png')
+	&__container
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__decor
+		height: 100px
+		width: 2px
+		background-color: #0B318F
+		position: relative
+		&::after
+			content: ''
+			position: absolute
+			height: 51px
+			bottom: 0
+			left: 0
+			width: 2px
+			background-color: $pinkRed
+	&__title
+		max-width: 550px
+		color: #fff
 .form
-    margin-top: 40px
-    &__container
-        display: flex
-    &__column
-        display: flex
-        flex-direction: column
-        width: calc(50% - 30px)
-        &:last-child
-            margin-left: 60px
-    &__input
-        padding: 17px
-        border: 0
-        background-color: transparent
-        border-bottom: 3px solid $darkBlue
-        color: $darkBlue
-        outline: none
-        font-size: 18px
-        position: relative
-        margin-bottom: 8px
-        &::placeholder
-            text-transform: uppercase
-            color: $darkBlue
-    &__label-require
-        position: relative
-        &::after
-            content: '*'
-            position: absolute
-            bottom: -42px
-            font-size: 22px
-            color: $pinkRed
-    &__textarea
-        padding: 0
-        margin-top: 0
-        resize: none
-        width: 100%
-        max-height: 90px
-        height: 90px
-        &::-webkit-scrollbar
-            width: 10px
-            border-radius: 10px
-            background-color: #E7E7E7
-        &::-webkit-scrollbar-thumb
-            width: 10px
-            border-radius: 10px
-            background-color: $pinkRed
+	margin-top: 15px
+	&__container
+		display: flex
+	&__column
+		display: flex
+		flex-direction: column
+		width: calc(50% - 30px)
+		&:last-child
+			margin-left: 60px
+	&__input
+		padding: 17px
+		border: 0
+		background-color: transparent
+		border-bottom: 3px solid $darkBlue
+		color: $darkBlue
+		outline: none
+		font-size: 18px
+		position: relative
+		margin-bottom: 8px
+		&::placeholder
+			text-transform: uppercase
+			color: $darkBlue
+	&__label-require
+		position: relative
+		&::after
+			content: '*'
+			position: absolute
+			bottom: -42px
+			font-size: 22px
+			color: $pinkRed
+	&__textarea
+		padding: 0
+		margin-top: 0
+		resize: none
+		width: 100%
+		max-height: 90px
+		height: 90px
+		&::-webkit-scrollbar
+			width: 10px
+			border-radius: 10px
+			background-color: #E7E7E7
+		&::-webkit-scrollbar-thumb
+			width: 10px
+			border-radius: 10px
+			background-color: $pinkRed
 .form-row
-    display: flex
-    align-items: center
-    margin-bottom: 20px
-    margin-top: 30px
-    &__icon
-        padding: 10px 9px
-        margin-right: 33px
-        border: 1px solid $greyBorder
-        box-shadow: inset 0px -4px 0px $pinkRed
-    &__title
-        color: $darkBlue
-        font-size: 22px
+	display: flex
+	align-items: center
+	margin-bottom: 10px
+	margin-top: 10px
+	&__icon
+		padding: 10px 9px
+		margin-right: 33px
+		border: 1px solid $greyBorder
+		box-shadow: inset 0px -4px 0px $pinkRed
+		max-width: 60px
+		width: 100%
+		height: 75px
+		img
+			width: 100%
+			height: 100%
+	&__title
+		color: $darkBlue
+		font-size: 22px
 .form-towns
-    margin-top: 12px
+	margin-top: 12px
 .checkbox
-    display: flex
-    align-items: center
-    font-size: 16px
-    padding-left: 20px
-    text-transform: uppercase
-    color: $darkBlue
-    &__input
-        appearance: none
-        &:checked
-            & ~ .checkbox__box
-                background-color: $pinkRed
-    &__box
-        margin-right: 23px
-        border: 3px solid $pinkRed
-        display: block
-        max-width: 26px
-        min-width: 26px
-        height: 26px
-        width: 100%
-    &__second-type
-        padding-left: 0
-        text-transform: none
-        align-items: start
-        position: relative
-        margin-bottom: 90px
-        line-height: 130%
-        &::before
-            content: ''
-            position: absolute
-            width: 100%
-            left: 0
-            right: 0
-            bottom: -40px
-            height: 2px
-            background-color: #E2E2E2
-        &::after
-            content: ''
-            position: absolute
-            width: 136px
-            left: 0
-            bottom: -40px
-            height: 2px
-            background-color: $pinkRed
+	display: flex
+	align-items: center
+	font-size: 16px
+	padding-left: 20px
+	text-transform: uppercase
+	color: $darkBlue
+	&__input
+		appearance: none
+		&:checked
+			& ~ .checkbox__box
+				background-color: $pinkRed
+	&__box
+		margin-right: 23px
+		border: 3px solid $pinkRed
+		display: block
+		max-width: 26px
+		min-width: 26px
+		height: 26px
+		width: 100%
+	&__second-type
+		padding-left: 0
+		text-transform: none
+		align-items: start
+		position: relative
+		margin-bottom: 50px
+		line-height: 130%
+		&::before
+			content: ''
+			position: absolute
+			width: 100%
+			left: 0
+			right: 0
+			bottom: -20px
+			height: 2px
+			background-color: #E2E2E2
+		&::after
+			content: ''
+			position: absolute
+			width: 136px
+			left: 0
+			bottom: -20px
+			height: 2px
+			background-color: $pinkRed
 .form-text
-    height: 250px
-    padding-right: 37px
-    margin-bottom: 46px
-    overflow-y: scroll
-    &__text
-        line-height: 130%
-        font-size: 16px
-        color: $darkBlue
-    &__black
-        font-family: 'GothamPro-Black'
-    &::-webkit-scrollbar
-        width: 10px
-        border-radius: 10px
-        background-color: #E7E7E7
-    &::-webkit-scrollbar-thumb
-        width: 10px
-        border-radius: 10px
-        background-color: $pinkRed
+	height: 250px
+	padding-right: 37px
+	margin-bottom: 46px
+	overflow-y: scroll
+	&__text
+		line-height: 130%
+		font-size: 16px
+		color: $darkBlue
+	&__black
+		font-family: 'GothamPro-Black'
+	&::-webkit-scrollbar
+		width: 10px
+		border-radius: 10px
+		background-color: #E7E7E7
+	&::-webkit-scrollbar-thumb
+		width: 10px
+		border-radius: 10px
+		background-color: $pinkRed
 .button
-    display: flex
-    margin-top: 32px
-    &__recapcha
-        margin-right: 40px
-    &-submit
-        background-color: $pinkRed
-        padding: 11px 28px
-        border: 0
-        background-color: $pinkRed
-        color: $white
-        display: flex
-        align-items: center
-        &__text
-            text-align: left
-            text-transform: uppercase
-            font-family: 'GothamPro-Medium'
-            font-size: 18px
-        &__arrow
+	display: flex
+	margin-top: 32px
+	&__recapcha
+		margin-right: 40px
+	&-submit
+		background-color: $pinkRed
+		padding: 11px 28px
+		border: 0
+		background-color: $pinkRed
+		color: $white
+		display: flex
+		align-items: center
+		&__text
+			text-align: left
+			text-transform: uppercase
+			font-family: 'GothamPro-Medium'
+			font-size: 18px
+		&__arrow
 
 @media screen and (max-width: 1199px)
-    h1
-        font-size: 24px
-    .form
-        &__container
-            flex-direction: column
-    .form-header
-        &__container
-            flex-direction: column
-        &__decor
-            width: 100%
-            height: 2px
-            margin: 20px 0
-            &::after
-                height: 2px
-                width: 35%
-        &__logo
-            width: 100%
-            img
-                width: 100%
-        &__title
-            width: 100%
-    .form
-        &__column
-            width: 100%
-            &:last-child
-                margin-left: 0
-        &-row
-            &__icon
-                margin-right: 15px
-            &__title
-                font-size: 18px
-        &-towns
-            flex-wrap: wrap
-            &>.checkbox
-                margin-bottom: 20px
-        &-text
-            padding-right: 20px
-            &__text
-                font-size: 14px
-    .button
-        flex-wrap: wrap
-        &__recapcha
-            margin-bottom: 10px
-            width: 273px
-            height: 70px
+	h1
+		font-size: 24px
+	.form
+		&__container
+			flex-direction: column
+	.form-header
+		&__container
+			flex-direction: column
+		&__decor
+			width: 100%
+			height: 2px
+			margin: 20px 0
+			&::after
+				height: 2px
+				width: 35%
+		&__logo
+			width: 100%
+			img
+				width: 100%
+		&__title
+			width: 100%
+	.form
+		&__column
+			width: 100%
+			&:last-child
+				margin-left: 0
+		&-row
+			&__icon
+				margin-right: 15px
+			&__title
+				font-size: 18px
+		&-towns
+			flex-wrap: wrap
+			&>.checkbox
+				margin-bottom: 20px
+		&-text
+			padding-right: 20px
+			&__text
+				font-size: 14px
+	.button
+		flex-wrap: wrap
+		&__recapcha
+			margin-bottom: 10px
+			width: 273px
+			height: 70px
 
-            img
-                width: 100%
-        &-submit
-            background-color: $pinkRed
-            padding: 11px 28px
-            border: 0
-            background-color: $pinkRed
-            color: $white
-            display: flex
-            align-items: center
-            width: 273px
-            height: 70px
-            &__text
-                text-align: left
-                text-transform: uppercase
-                font-family: 'GothamPro-Medium'
-                font-size: 18px
-            &__arrow
+			img
+				width: 100%
+		&-submit
+			background-color: $pinkRed
+			padding: 11px 28px
+			border: 0
+			background-color: $pinkRed
+			color: $white
+			display: flex
+			align-items: center
+			width: 273px
+			height: 70px
+			&__text
+				text-align: left
+				text-transform: uppercase
+				font-family: 'GothamPro-Medium'
+				font-size: 18px
+			&__arrow

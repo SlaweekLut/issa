@@ -46,10 +46,11 @@ h1 {
   margin: 0 auto;
   max-width: 1290px;
   width: 100%;
-  padding: 39px;
+  padding: 0px 40px;
 }
 
 .form-header {
+  padding: 10px 0;
   background: url("../img/header-form.png");
 }
 
@@ -66,7 +67,7 @@ h1 {
 }
 
 .form-header__decor {
-  height: 144px;
+  height: 100px;
   width: 2px;
   background-color: #0B318F;
   position: relative;
@@ -88,7 +89,7 @@ h1 {
 }
 
 .form {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .form__container {
@@ -184,8 +185,8 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .form-row__icon {
@@ -194,6 +195,14 @@ h1 {
   border: 1px solid #E2E2E2;
   -webkit-box-shadow: inset 0px -4px 0px #FF006E;
           box-shadow: inset 0px -4px 0px #FF006E;
+  max-width: 60px;
+  width: 100%;
+  height: 75px;
+}
+
+.form-row__icon img {
+  width: 100%;
+  height: 100%;
 }
 
 .form-row__title {
@@ -245,7 +254,7 @@ h1 {
       -ms-flex-align: start;
           align-items: start;
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   line-height: 130%;
 }
 
@@ -255,7 +264,7 @@ h1 {
   width: 100%;
   left: 0;
   right: 0;
-  bottom: -40px;
+  bottom: -20px;
   height: 2px;
   background-color: #E2E2E2;
 }
@@ -265,7 +274,7 @@ h1 {
   position: absolute;
   width: 136px;
   left: 0;
-  bottom: -40px;
+  bottom: -20px;
   height: 2px;
   background-color: #FF006E;
 }
