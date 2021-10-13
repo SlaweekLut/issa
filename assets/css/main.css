@@ -247,6 +247,12 @@ h1 {
   width: 100%;
 }
 
+.checkbox__box-link {
+  display: inline;
+  color: #FF006E;
+  text-decoration: none;
+}
+
 .checkbox__second-type {
   padding-left: 0;
   text-transform: none;
