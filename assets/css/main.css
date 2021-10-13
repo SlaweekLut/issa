@@ -71,6 +71,7 @@ h1 {
   width: 2px;
   background-color: #0B318F;
   position: relative;
+  right: -45px;
 }
 
 .form-header__decor::after {
@@ -86,6 +87,14 @@ h1 {
 .form-header__title {
   max-width: 550px;
   color: #fff;
+}
+
+.form-header__logo {
+  max-width: 450px;
+}
+
+.form-header__logo img {
+  width: 100%;
 }
 
 .form {
@@ -120,7 +129,7 @@ h1 {
   border-bottom: 3px solid #001F73;
   color: #001F73;
   outline: none;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   margin-bottom: 8px;
 }
