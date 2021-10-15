@@ -50,7 +50,7 @@ h1 {
 }
 
 .form-header {
-  padding: 10px 0;
+  padding: 25px 0;
   background: url("../img/header-form.png");
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 .form {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .form__container {
@@ -204,9 +204,9 @@ h1 {
   border: 1px solid #E2E2E2;
   -webkit-box-shadow: inset 0px -4px 0px #FF006E;
           box-shadow: inset 0px -4px 0px #FF006E;
-  max-width: 60px;
+  max-width: 63px;
   width: 100%;
-  height: 75px;
+  height: 63px;
 }
 
 .form-row__icon img {
@@ -295,9 +295,10 @@ h1 {
 }
 
 .form-text {
-  height: 250px;
+  height: 220px;
   padding-right: 37px;
-  margin-bottom: 46px;
+  margin-bottom: 30px;
+  margin-top: 15px;
   overflow-y: scroll;
 }
 
