@@ -168,11 +168,11 @@ h1 {
 
 .form__textarea {
   padding: 0;
-  margin-top: 0;
+  margin-top: 20px;
   resize: none;
   width: 100%;
-  max-height: 90px;
-  height: 90px;
+  max-height: 125px;
+  height: 125px;
 }
 
 .form__textarea::-webkit-scrollbar {
@@ -217,10 +217,6 @@ h1 {
 .form-row__title {
   color: #001F73;
   font-size: 22px;
-}
-
-.form-towns {
-  margin-top: 12px;
 }
 
 .checkbox {
