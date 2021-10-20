@@ -82,7 +82,6 @@ h1 {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .services-item__text {
   margin-top: 37px;
   color: #001F73;
@@ -139,11 +138,6 @@ h1 {
   -webkit-column-gap: 20px;
           column-gap: 20px;
   grid-row-gap: 60px;
-=======
-.form-header {
-  padding: 25px 0;
-  background: url("../img/header-form.png");
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .info-item {
@@ -169,12 +163,8 @@ h1 {
 
 .mobile-info {
   position: relative;
-<<<<<<< HEAD
   overflow: hidden;
   display: none;
-=======
-  right: -45px;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 @media screen and (max-width: 1196px) {
@@ -219,24 +209,10 @@ h1 {
   margin-right: 0;
 }
 
-<<<<<<< HEAD
 .tariffs-item__container {
   border-left: 1px solid #E2E2E2;
   border-right: 1px solid #E2E2E2;
   padding: 40px 23px 10px;
-=======
-.form-header__logo {
-  max-width: 450px;
-}
-
-.form-header__logo img {
-  width: 100%;
-}
-
-.form {
-  background: url("../img/bg-form.png");
-  margin-top: 40px;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .tariffs-item__row {
@@ -272,20 +248,10 @@ h1 {
 
 .tariffs-item__line {
   border: 0;
-<<<<<<< HEAD
   height: 1px;
   background-color: #E2E2E2;
   color: #e2e2e2;
   margin: 5px 0;
-=======
-  background-color: transparent;
-  border-bottom: 3px solid #001F73;
-  color: #001F73;
-  outline: none;
-  font-size: 16px;
-  position: relative;
-  margin-bottom: 8px;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .tariffs-item__subtitle {
@@ -339,7 +305,6 @@ h1 {
   font-size: 22px;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1196px) {
   .tariffs__title {
     margin-bottom: 35px !important;
@@ -366,15 +331,6 @@ h1 {
   .tariffs-header__img {
     left: 5%;
   }
-=======
-.form__textarea {
-  padding: 0;
-  margin-top: 20px;
-  resize: none;
-  width: 100%;
-  max-height: 125px;
-  height: 125px;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .advantages-product__container {
@@ -425,22 +381,10 @@ h1 {
   border-bottom: 2px solid #FF006E;
 }
 
-<<<<<<< HEAD
 .advantages-product-item__title {
   font-size: 22px;
   font-weight: bold;
   margin-left: 30px;
-=======
-.form-row__icon {
-  padding: 10px 9px;
-  margin-right: 33px;
-  border: 1px solid #E2E2E2;
-  -webkit-box-shadow: inset 0px -4px 0px #FF006E;
-          box-shadow: inset 0px -4px 0px #FF006E;
-  max-width: 63px;
-  width: 100%;
-  height: 63px;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .advantages-product-item__text {
@@ -454,7 +398,6 @@ h1 {
   padding-top: 100px;
 }
 
-<<<<<<< HEAD
 .advantages-product-swiper .slick-dots {
   left: 20px;
   top: 0;
@@ -476,19 +419,6 @@ h1 {
   background-size: 25px 25px;
   border: 1px solid #0B318F;
   border-bottom: 2px solid #FF006E;
-=======
-.checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 16px;
-  padding-left: 20px;
-  text-transform: uppercase;
-  color: #001F73;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .advantages-product-swiper .slick-prev {
@@ -555,17 +485,8 @@ h1 {
   background: #e2e2e2;
 }
 
-<<<<<<< HEAD
 .clients-header__img {
   max-width: 312px;
-=======
-.form-text {
-  height: 220px;
-  padding-right: 37px;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  overflow-y: scroll;
->>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 }
 
 .clients-text {
