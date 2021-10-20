@@ -13,6 +13,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 	<header class="header">
 		<li class="container header__container">
 			<div class="header__block logo">
@@ -1453,6 +1454,83 @@
 	<!-- scripts -->
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script type="module" src="assets/js/script.js"></script>
+=======
+    <div class="form-container">
+        <div class="form-header">
+            <div class="container form-header__container">
+                <div class="form-header__logo">
+                    <img src="assets/img/logo.svg" alt="Логотип компании">
+                </div>
+                <div class="form-header__decor"></div>
+                <h1 class="form-header__title">ДЕМОНСТРАЦИОННЫЙ  ДОСТУП К РЕСУРСАМ ВИРТУАЛЬНОЙ ИНФРАСТРУКТУРЫ IaaS</h1>
+            </div>
+        </div>
+        <form action="GET" class="form">
+            <div class="container form__container">
+                <div class="form__column">
+                    <div class="form-row">
+                        <div class="form-row__icon"><img src="assets/img/town.svg" alt="Компания"></div>
+                        <h2 class="form-row__title">КОМПАНИЯ (КЛИЕНТ)</h2>
+                    </div>
+                    <label for="input-req" class="form__label-require"></label>
+                    <input type="text" class="form__input" name="input-req" placeholder="Наименование компании" required>
+                    <input type="text" class="form__input" placeholder="ИНН">
+                    <input type="text" class="form__input" placeholder="Адрес места нахождения">
+                    
+                    <div class="form-row">
+                        <div class="form-row__icon"><img src="assets/img/user.svg" alt="Клиент"></div>
+                        <h2 class="form-row__title">ПРЕДСТАВИТЕЛЬ КЛИЕНТА</h2>
+                    </div>
+                    <label for="input-req" class="form__label-require"></label>
+                    <input type="text" class="form__input" name="input-req" placeholder="Ф.И.О." required>
+                    <label for="input-req" class="form__label-require"></label>
+                    <input type="email" class="form__input" name="input-req" placeholder="Рабочий Email">
+                    <label for="input-req" class="form__label-require"></label>
+                    <input type="tel" class="form__input" name="input-req" placeholder="Мобильный телефон">
+                    
+                    <textarea class="form__input form__textarea" placeholder="Комментарий"></textarea>
+                </div>
+                <div class="form__column">
+                    <div class="form-row">
+                        <div class="form-row__icon"><img src="assets/img/hands.svg" alt="Сделка"></div>
+                        <h2 class="form-row__title">СОГЛАШЕНИЕ О ПРЕДОСТАВЛЕНИИ ДЕМОНСТРАЦИОННОГО ДОСТУПА К УСЛУГЕ IAAS </h2>
+                    </div>
+                    <div class="form-text">
+                        <p class="form-text__text"><span class="form-text__black">МЕЖДУ:</span></p>
+                        <br><p class="form-text__text"><span class="form-text__black">(1) ООО «Связь ВСД»</span>, компанией, головной офис которой находится по адресу: 127083, г. Москва, ул. 8 Марта, д. 14 стр. 1, основной государственный регистрационный номер 1037713010444 (далее Линкс); и</p>
+                        <br><p class="form-text__text"><span class="form-text__black">(2) Компанией</span>, сведения о которой указаны выше (далее Клиент);</p>
+                        <br><p class="form-text__text">(совместно именуемыми «Сторонами»)</p>
+                        <br><p class="form-text__text"><span class="form-text__black">ПРИНИМАЯ ВО ВНИМАНИЕ, ЧТО:</span></p>
+                        <br><p class="form-text__text">Линкс предлагает услугу виртуальной инфраструктуры LinxCloud IAAS (далее «Услуга») по предоставлению доступа к мощностям для обработки и хранения данных.</p>
+                        <br><p class="form-text__text">Клиент желает приобрести Услугу у Линкс и для этой цели намерен протестировать Услугу в соответствии с условиями, установленными в данном Соглашении.</p>
+                        <br><p class="form-text__text"><span class="form-text__black">СТОРОНЫ ДОГОВОРИЛИСЬ О НИЖЕСЛЕДУЮЩЕМ:</span></p>
+                        <br><p class="form-text__text"><span class="form-text__black">Общие положения</span></p>
+                        <br><p class="form-text__text">Отношения Сторон в связи с предоставлением демонстрационного доступа к Услуге и тестированию Услуги регулируются положениями Соглашения и стандартными обязательствами конфиденциальности и условиями предоставления демонстрационного доступа к услуге IAAS (далее -  «Стандартные условия»). Стандартные условия содержат требования, условия и правила для всех клиентов Линкс, устанавливают права и обязанности Сторон и применяются к отношениям Сторон в связи с предоставлением демонстрационного доступа к Услуге и тестированием Услуги.</p>
+                    </div>
+                    <label class='checkbox checkbox__second-type'>
+                        <input type='checkbox' name="town" value="moscow" class='checkbox__input'>
+                        <span class='checkbox__box'></span>
+                        <p class="checkbox__box-text">
+                            Предоставляя свои персональные данные, Вы соглашаетесь на их обработку с соответствии с
+                            <a href="https://ru.linxdatacenter.com/upload/Privacy_policy.pdf" class="checkbox__box-link">Политикой обработки персональных данных ООО «Связь ВСД»</a>. Пожалуйста, внимательно ознакомьтесь
+                            с документом, доступным по ссылке, перед направлением своих персональных данных компании.
+                        </p>
+                    </label>
+                    <p class="form-text__text">
+                        Нажимая на кнопку «Предоставить демо-доступ», я принимаю условия Соглашения о предоставлении демонстрационного доступа к услуге IaaS, изложенного выше. 
+                    </p>
+                    <div class="button">
+                        <div class="button__recapcha"><img src="assets/img/capcha.png" alt="Капча"></div>
+                        <button type="submit" class="button-submit">
+                            <p class="button-submit__text">ПОЛУЧИТЬ ДЕМО-ДОСТУП</p>
+                            <img src="assets/img/arrow.svg" alt="Стрелка" class="button-submit__arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+>>>>>>> 67ca950f16020cc57ffa3c3e6cea9fcd584a4659
 </body>
 
 </html>
